@@ -1,0 +1,617 @@
+html{
+  scroll-behavior: smooth;
+}
+
+/*-------------CABEÇALHO--------------*/
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+    padding: 10px 10px 25px;
+
+    img{
+        margin: 5px;
+        padding: 0 20px;
+        width: 10%;
+
+    }
+}
+
+.logo-icon{
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+  margin-right: 50px;
+  margin-top: -80px;
+  margin-bottom: 20px;
+  
+  img{
+    width: 50px;
+  }
+}
+
+.header-nav{
+  button{
+      display: flex;
+      align-items: center;
+      padding:5px 12px;
+      border-radius: 30px;
+      background-color: #15591F;
+      border: 0;
+      font-size: 15px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-right: 15px;  
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/*-----------------------CABEÇALHO APRESENTAÇÃO------------------*/
+
+.header-hero{
+  padding: 0 0 100px 0;
+  background-color: #15591F ;
+  background-image: url(assets/fundo1.jpg);
+  background-position: absolute;
+  background-size: cover;
+  border-radius: 25px;
+  margin: 0 25px 0 25px;
+}
+
+.hero-info{
+  padding: 30px;
+  width: 40%;
+  margin: 0 25px;
+  margin-top: 0;
+  h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: #15591F;
+    margin-bottom: 5px;
+  }
+  p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: justify;
+  }
+}
+
+/*-------------------SOBRE-----------------------*/
+
+.nav-topic {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 40px;
+  margin-top: 35px;
+
+}
+
+.topic {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.topics {
+  width: 50%;
+}
+
+.topics{
+  h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 15px 0 5px;
+  }
+  p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin: 0 0 10px;
+  }
+}
+
+.topic{
+  img {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  }
+}
+
+.topic .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.topic .text h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.topic .text p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+.topic-img {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+
+  img {
+  max-width: 100%;
+  border-radius: 20px;
+  }
+}
+
+/*---------------SEÇÃO INFOS-------------*/
+/*--INFOS 1--*/
+.info-project1{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 30px;
+  padding: 50px 0;
+  background-color: #15591F ;
+  border-radius: 20px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 25px;
+  margin-right: 25px;
+
+  button{
+        display: flex;
+        padding:8px 12px;
+        border-radius: 30px;
+        background-color: #fffb0a;
+        color: black;
+        border: 0;
+        font-size: 15px;
+        margin-top: 0;  
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        gap: 5px;
+        text-decoration: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+      
+  button:hover{
+      transform: scale(1.1);
+      transition: 0.8s;
+  }
+}
+
+.infos1{
+  width: 45%;
+  margin-right: 50px;
+
+  h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 0;
+  }
+  
+  h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    color: white;
+  }
+}
+
+.info-img1{
+  width: 50%;
+  justify-content: flex-end;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.info-img1 {
+  img{
+  max-width: 100%;
+  border-radius: 20px;
+  }
+}
+
+
+/*--INFOS 2--*/
+
+.info-project2{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 25px 0;
+  background-color: #15591F ;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+
+  button{
+        display: flex;
+        padding:8px 12px;
+        border-radius: 30px;
+        background-color: #fffb0a;
+        color: black;
+        border: 0;
+        font-size: 15px;
+        margin-top: 0;  
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        gap: 5px;
+        text-decoration: none;
+}
+  a{
+    text-decoration: none;
+  }
+      
+button:hover{
+      transform: scale(1.1);
+      transition: 0.8s;
+  }
+}
+
+.info2{
+  width: 40%;
+
+  h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 5px;
+  }
+  p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+  }
+}
+
+.info-img2{
+  width: 50%;
+  justify-content: flex-end;
+  margin-top: 25px;
+}
+
+.info-img2 {
+  img{
+  max-width: 100%;
+  border-radius: 20px;
+  }
+}
+
+/*-----------------PATROCINIO---------------------*/
+
+.index-investor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.investor-title {
+  text-align: center;
+  h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 55px;
+  margin-bottom: 5px;
+  }
+  p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+  }
+}
+
+.investor-top{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.investor{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.investor{
+  img {
+  width: 250px;
+  border: 10px solid #15591F;
+  }
+}
+
+.investor-info {
+  margin-top: -4px;
+  background-color: #15591F;
+  padding: 5px;
+
+  p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  margin: 5px;
+  color: white;
+  }
+}
+
+/*-----------------RODAPÉ---------------------*/
+
+.footer {
+  align-items: center;
+  justify-content: center;
+  background-color: #15591F;
+  border-radius: 25px;
+  margin: 25px;
+  padding: 10px 0;
+  gap: 25px;
+  color: white;
+}
+
+
+.footer-info {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: flex-start;
+
+  img{
+    margin-top: 80px;
+    width: 235px;
+  }
+}
+
+.footer-section {
+  min-width: 200px;
+
+  h4{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  p, li {
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  margin: 5px 0;
+  }
+}
+
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.footer-section a:hover {
+  transform: scale(1.05);
+  color: #fffb0a;
+}
+
+.footer-section p {
+  font-size: 16px;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 65px;
+}
+
+.footer-copy {
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/*------------ RESPONSIVIDADE ------------*/
+
+@media (max-width: 1024px) {
+  .header-nav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    img {
+      width: 30%;
+      padding: 10px 0;
+    }
+
+    button{
+      margin-top: 5px;
+    }
+
+  }
+
+  .logo-icon{
+    display: none;
+    align-items: center;
+  }
+
+  .hero-info {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .nav-topic {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .topics,
+  .topic-img {
+    width: 90%;
+    text-align: center;
+  }
+
+  .topic {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .topic .text {
+    align-items: center;
+  }
+
+  .info-project1,
+  .info-project2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 15px;
+  }
+
+  .infos1,
+  .info2,
+  .info-img1,
+  .info-img2 {
+    width: 90%;
+    margin: 0;
+  }
+
+  .infos1 h1,
+  .info2 h1 {
+    font-size: 40px;
+  }
+
+  .infos1 h2 {
+    font-size: 30px;
+  }
+
+  .investor-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .investor-info {
+    img {
+    width: 60%;
+  }
+}
+
+  .footer-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    img {
+      margin-top: 20px;
+      width: 60%;
+    }
+  }
+
+  .footer-section {
+    width: 90%;
+  }
+
+  .footer-social {
+    justify-content: center;
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-info h1 {
+    font-size: 30px;
+  }
+
+  .topics h1 {
+    font-size: 30px;
+  }
+
+  .topics h2 {
+    font-size: 18px;
+  }
+
+  .infos1 h1,
+  .info2 h1 {
+    font-size: 30px;
+  }
+
+  .infos1 h2 {
+    font-size: 22px;
+  }
+
+  .investor-title h1 {
+    font-size: 30px;
+  }
+
+  .investor-title p {
+    font-size: 16px;
+  }
+
+  .footer-section h4 {
+    font-size: 18px;
+  }
+
+  .footer-section p,
+  .footer-section a {
+    font-size: 14px;
+  }
+
+  .footer-copy {
+    font-size: 12px;
+  }
+}
